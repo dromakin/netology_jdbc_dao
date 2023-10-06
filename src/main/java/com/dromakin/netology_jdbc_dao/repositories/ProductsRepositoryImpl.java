@@ -32,7 +32,7 @@ public class ProductsRepositoryImpl implements ProductsRepository {
     public ProductsRepositoryImpl(NamedParameterJdbcTemplate namedParameterJdbcTemplate) {
         this.namedParameterJdbcTemplate = namedParameterJdbcTemplate;
         this.resourceReader = new ResourceReader();
-        this.productNameRequest = resourceReader.read("find_product_name.sql");
+        this.productNameRequest = resourceReader.read("sql/find_product_name.sql");
     }
 
     @Override
