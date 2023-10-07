@@ -1,5 +1,5 @@
 /*
- * File:     Product
+ * File:     ProductDTO
  * Package:  com.dromakin.netology_jdbc_dao.dto
  * Project:  netology_jdbc_dao
  *
@@ -21,6 +21,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Builder
-public class Product {
+public class ProductDTO {
     private String name;
 }
