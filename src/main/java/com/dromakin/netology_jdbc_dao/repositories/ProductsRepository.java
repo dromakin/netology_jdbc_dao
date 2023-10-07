@@ -12,10 +12,8 @@
  */
 package com.dromakin.netology_jdbc_dao.repositories;
 
-import com.dromakin.netology_jdbc_dao.dto.Product;
-
 import java.util.List;
 
 public interface ProductsRepository {
-    List<Product> getProductName(String name);
+    List<String> getProductName(String name);
 }
